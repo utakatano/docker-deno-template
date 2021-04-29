@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./src:/var/www/src
+      - ./src:/src
     ports:
       - '8080:8080'
     tty: true
