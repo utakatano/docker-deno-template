@@ -1,5 +1,5 @@
-FROM hayd/debian-deno:1.9.2
+FROM hayd/debian-deno:1.10.2
 
-WORKDIR /src
+WORKDIR /app
 
 CMD ["bash"]
