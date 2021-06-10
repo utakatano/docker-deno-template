@@ -5,7 +5,7 @@ And you can use [VS code Remote - Containers](https://code.visualstudio.com/docs
 
 ## Environment
 
-- [Deno](https://deno.land/) ... 1.9.2
+- [Deno](https://deno.land/) ... 1.10.2
 
 ## How to run local development
 
@@ -23,14 +23,14 @@ or click the icon on the lower left corner when you already installed [VS code R
 - in the case of `docker-compose exec deno bash`
 
 ```sh
-/src＃ deno run --allow-net hello.ts
+/app＃ deno run --allow-net hello.ts
 ```
 
 - in the case of using VS code Remote - Containers
 
 ```sh
-/workspace＃ cd src
-/workspace/src＃ deno run --allow-net hello.ts
+/workspace＃ cd app
+/workspace/app＃ deno run --allow-net hello.ts
 ```
 
 3. You can see the result in `http://localhost:8080` with your browser.
